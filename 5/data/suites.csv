@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jul 12 21:32:06 GMT 2022","Tue Jul 12 21:32:08 GMT 2022","2066","Google Chrome","example.spec.ts","Log in with incorrect data","","","user should see error message",""
+"failed","Tue Jul 12 21:32:21 GMT 2022","Tue Jul 12 21:32:27 GMT 2022","6238","Google Chrome","example.spec.ts","Log in with incorrect data","","","user should see error message when email is incorrect",""
