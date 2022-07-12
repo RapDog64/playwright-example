@@ -1,0 +1,1 @@
+[{"uid":"9937e28ee41e34f2","name":"user should see error message","time":{"start":1657659935323,"stop":1657659938034,"duration":2711},"status":"passed","severity":"critical"},{"uid":"1acab459d81b1304","name":"user should see error message when email is incorrect","time":{"start":1657659953090,"stop":1657659960090,"duration":7000},"status":"failed","severity":"critical"}]
