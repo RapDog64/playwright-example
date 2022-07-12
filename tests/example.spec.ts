@@ -2,7 +2,7 @@ import {expect, type Page, test} from '@playwright/test';
 import {allure} from "allure-playwright"
 
 test.beforeEach(async ({page}) => {
-    await page.goto("http://demowebshop.tricentis.com/login");
+    await page.goto("/login");
 });
 
 test.describe('Log in with incorrect data', () => {
@@ -36,7 +36,6 @@ test.describe('Log in with incorrect data', () => {
         });
 
     });
-
 
     test('user should see error message when email is incorrect', async ({page}) => {
         allure.severity("critical")
