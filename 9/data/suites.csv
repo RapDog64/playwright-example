@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jul 16 13:52:54 GMT 2022","Sat Jul 16 13:53:02 GMT 2022","8444","Google Chrome","ui/login.spec.ts","Authentication suite","","","Log in with invalid data",""
+"passed","Sat Jul 16 13:53:04 GMT 2022","Sat Jul 16 13:53:06 GMT 2022","1750","Google Chrome","ui/search-product.spec.ts","Search products","","","Searched product is displayed in the result list","Searched product is displayed in the result list"
+"passed","Sat Jul 16 13:53:06 GMT 2022","Sat Jul 16 13:53:08 GMT 2022","1490","Google Chrome","ui/search-product.spec.ts","Search products","","","The result list is empty if product doesn't exist","The result list is empty if product doesn't exist"
+"passed","Sat Jul 16 13:53:02 GMT 2022","Sat Jul 16 13:53:04 GMT 2022","2078","Google Chrome","ui/login.spec.ts","Authentication suite","","","Log in with valid data",""
