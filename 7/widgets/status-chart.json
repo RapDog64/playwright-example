@@ -1,0 +1,1 @@
+[{"uid":"7e634d345b07c089","name":"Log in with invalid data @pg","time":{"start":1657974791054,"stop":1657974793509,"duration":2455},"status":"passed","severity":"blocker"},{"uid":"efdc2cd029bc886e","name":"Log in with valid data @ne","time":{"start":1657974796338,"stop":1657974798814,"duration":2476},"status":"passed","severity":"blocker"}]
