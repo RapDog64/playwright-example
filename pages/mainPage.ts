@@ -16,13 +16,13 @@ export class MainPage {
     }
 
     public async typeEmail(email: string) {
-        await test.step(`Enter ${email}`, async () => {
+        await test.step(`Enter email: ${email}`, async () => {
             await this.page.locator("#Email").fill(email);
         });
     }
 
     public async typePassword(password: string) {
-        await test.step(`Enter ${password}`, async () => {
+        await test.step(`Enter password: ${password}`, async () => {
             await this.page.locator("#Password").fill(password);
         });
     }
