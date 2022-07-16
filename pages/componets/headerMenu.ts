@@ -16,13 +16,13 @@ export class HeaderMenu {
 // clickSearchButton
     public async typeProductByName(name: string) {
         await test.step(`Type ${name} in the search box`, async () => {
-            this.page.locator("[name='q']").fill(name);
+            await this.page.locator("[name='q']").fill(name);
         });
     }
 
     public async clickSearchButton() {
         await test.step("Click 'Search' button", async () => {
-            this.page.locator("[value='Search']").click();
+            await this.page.locator("[value='Search']").click();
         });
     }
 }

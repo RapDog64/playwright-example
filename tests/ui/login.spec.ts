@@ -22,7 +22,6 @@ test.describe("Authentication suite", () => {
         await mainPage.typePassword(password);
         await mainPage.clickLogin();
         await mainPage.verifyErrorMessage(message);
-
     })
 
     test("Log in with valid data", async ({page}) => {
@@ -41,7 +40,7 @@ test.describe("Authentication suite", () => {
         await mainPage.typePassword(password);
         await mainPage.clickLogin()
 
-        await new HeaderMenu(page).validateUserProfileEmail(email);
-
+        const headerMenu = new HeaderMenu(page);
+        await headerMenu.validateUserProfileEmail(email);
     })
 });

@@ -9,7 +9,7 @@ export class MainPage {
 
     public async navigate() {
         await test.step("Navigate to Log in page", async () => {
-            this.page.goto("/login");
+            await this.page.goto("/login");
         });
     }
 

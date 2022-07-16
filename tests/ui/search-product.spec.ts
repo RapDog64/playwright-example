@@ -15,7 +15,8 @@ test.describe("Search products", () => {
         allure.description("Searched product is displayed in the result list")
 
         const productName = "Build your own computer";
-        await new MainPage(page).navigate();
+        const mainPage = new MainPage(page);
+        await mainPage.navigate();
 
         const headerMenu = new HeaderMenu(page);
         await headerMenu.typeProductByName(productName);
@@ -38,7 +39,8 @@ test.describe("Search products", () => {
         const productName = "lfglawlrjkfadsf"
         const noProductsFoundMessage = "No products were found that matched your criteria."
 
-        await new MainPage(page).navigate();
+        const mainPage = new MainPage(page);
+        await mainPage.navigate();
         const headerMenu = new HeaderMenu(page);
         await headerMenu.typeProductByName(productName);
         await headerMenu.clickSearchButton();
