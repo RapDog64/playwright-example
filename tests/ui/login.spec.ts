@@ -41,8 +41,7 @@ test.describe("Authentication suite", () => {
         await mainPage.typePassword(password);
         await mainPage.clickLogin()
 
-        await new HeaderMenu(page)
-            .validateUserProfileEmail(email);
+        await new HeaderMenu(page).validateUserProfileEmail(email);
 
     })
 });

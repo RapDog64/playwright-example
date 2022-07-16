@@ -11,8 +11,6 @@ export class MainPage {
         await test.step("Navigate to Log in page", async () => {
             this.page.goto("/login");
         });
-
-        return this;
     }
 
     public async typeEmail(email: string) {
@@ -38,5 +36,4 @@ export class MainPage {
             await expect(this.page.locator('div[class="validation-summary-errors"]')).toHaveText(message);
         });
     }
-
 }

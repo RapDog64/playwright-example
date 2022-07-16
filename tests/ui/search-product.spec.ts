@@ -24,8 +24,6 @@ test.describe("Search products", () => {
         const searchResultPage = new SearchResultPage(page);
         await searchResultPage.validateSearchKeyword(productName);
         await searchResultPage.validateProductIsDisplayedInResultList(productName);
-
-
     })
 
     test("The result list is empty if product doesn't exist", async ({page}) => {
