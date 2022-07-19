@@ -4,7 +4,7 @@ import {HeaderMenu} from "../../pages/componets/headerMenu";
 import {SearchResultPage} from "../../pages/searchResultPage";
 import {allure} from "allure-playwright";
 
-test.describe("Search products", () => {
+test.describe.skip("Search products", () => {
     test("Searched product is displayed in the result list", async ({page}) => {
         allure.severity("blocker");
         allure.tag("smoke", "regress")
