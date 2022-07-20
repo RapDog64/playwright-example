@@ -1,0 +1,5 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Registration","Registration a new user","1","0","0","0","0"
+"","Product search","unauthorized user is able to search a product","0","0","2","0","0"
+"","Authentication feature","Log in as a user with valid credentials","0","0","1","0","0"
+"","Authentication feature","Log in as a user with invalid credentials","0","0","1","0","0"
