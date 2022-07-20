@@ -3,7 +3,7 @@ import {allure} from "allure-playwright"
 import {MainPage} from "../../pages/mainPage";
 import {HeaderMenu} from "../../pages/componets/headerMenu";
 
-test.describe.skip("Authentication suite", () => {
+test.describe("Authentication suite", () => {
     test("Log in with invalid data", async ({page}) => {
         allure.severity("blocker");
         allure.tag("smoke", "regress")
