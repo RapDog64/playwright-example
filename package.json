@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
     "@playwright/test": "^1.23.2",
     "allure-playwright": "^2.0.0-beta.18"
   }
