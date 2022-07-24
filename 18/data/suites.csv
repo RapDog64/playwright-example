@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sun Jul 24 23:04:04 GMT 2022","Sun Jul 24 23:04:10 GMT 2022","6439","Google Chrome","ui/registration.spec.ts","User Registration Suite","","","User is able to register a new account with valid data @smoke @regular","Register a new user via UI"
+"passed","Sun Jul 24 23:03:38 GMT 2022","Sun Jul 24 23:03:47 GMT 2022","8827","Google Chrome","ui/login.spec.ts","Authentication suite","","","Log in with valid data @smoke @regular",""
