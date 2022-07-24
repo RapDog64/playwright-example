@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jul 24 22:39:30 GMT 2022","Sun Jul 24 22:39:32 GMT 2022","2097","Google Chrome","ui/search-product.spec.ts","Search products","","","Searched product is displayed in the result list @regular","Searched product is displayed in the result list"
+"failed","Sun Jul 24 22:39:23 GMT 2022","Sun Jul 24 22:39:29 GMT 2022","6595","Google Chrome","ui/registration.spec.ts","User Registration Suite","","","User is able to register a new account with valid data @smoke @regular","Register a new user via UI"
+"passed","Sun Jul 24 22:39:03 GMT 2022","Sun Jul 24 22:39:05 GMT 2022","2198","Google Chrome","ui/login.spec.ts","Authentication suite","","","Log in with valid data @smoke @regular",""
+"passed","Sun Jul 24 22:39:01 GMT 2022","Sun Jul 24 22:39:03 GMT 2022","2530","Google Chrome","ui/login.spec.ts","Authentication suite","","","Log in with invalid data @regular",""
+"passed","Sun Jul 24 22:39:32 GMT 2022","Sun Jul 24 22:39:34 GMT 2022","1945","Google Chrome","ui/search-product.spec.ts","Search products","","","The result list is empty if product doesn't exist @regular","The result list is empty if product doesn't exist"
