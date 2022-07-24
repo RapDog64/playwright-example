@@ -5,7 +5,7 @@ import {SearchResultPage} from "../../pages/searchResultPage";
 import {allure} from "allure-playwright";
 
 test.describe("Search products", () => {
-    test("Searched product is displayed in the result list", async ({page}) => {
+    test("Searched product is displayed in the result list @regular", async ({page}) => {
         allure.severity("blocker");
         allure.tag("smoke", "regress")
         allure.owner("RapDog64");
@@ -27,7 +27,7 @@ test.describe("Search products", () => {
         await searchResultPage.validateProductIsDisplayedInResultList(productName);
     })
 
-    test("The result list is empty if product doesn't exist", async ({page}) => {
+    test("The result list is empty if product doesn't exist @regular", async ({page}) => {
         allure.severity("blocker");
         allure.tag("smoke", "regress")
         allure.owner("RapDog64");

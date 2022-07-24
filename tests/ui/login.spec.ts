@@ -4,7 +4,7 @@ import {MainPage} from "../../pages/mainPage";
 import {HeaderMenu} from "../../pages/componets/headerMenu";
 
 test.describe("Authentication suite", () => {
-    test("Log in with invalid data", async ({page}) => {
+    test("Log in with invalid data @regular", async ({page}) => {
         allure.severity("blocker");
         allure.tag("smoke", "regress")
         allure.owner("RapDog64");
@@ -24,7 +24,7 @@ test.describe("Authentication suite", () => {
         await mainPage.verifyErrorMessage(message);
     })
 
-    test("Log in with valid data", async ({page}) => {
+    test("Log in with valid data @smoke @regular", async ({page}) => {
         allure.severity("blocker");
         allure.owner("RapDog64");
         allure.link({url: 'http://demowebshop.tricentis.com/', name: 'Staging'});

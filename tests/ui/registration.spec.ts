@@ -6,7 +6,7 @@ import {HeaderMenu} from "../../pages/componets/headerMenu";
 import {allure} from "allure-playwright";
 
 test.describe("User Registration Suite", () => {
-    test("User is able to register a new account with valid data", async ({page}) => {
+    test("User is able to register a new account with valid data @smoke @regular", async ({page}) => {
         allure.severity("blocker");
         allure.tag("smoke", "regress", "UI")
         allure.owner("RapDog64");
