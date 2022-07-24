@@ -4,12 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       tags:
-        default: 'regular'
-        required: false
+        default: '@regular'
+        required: true
         description: 'Run tests with specific tag(s)'
-  push:
-    branches:
-      - master
 
 jobs:
   test:
@@ -24,7 +21,7 @@ jobs:
       - name: Init Playwright
         run: npx playwright install --with-deps
       - name: Test Playwright
-        run: npx playwright test --grep @${{ github.inputs.tags }}
+        run: npx playwright test --grep ${{ github.inputs.tags }}
 
       - name: Allure history
         uses: actions/checkout@v2
