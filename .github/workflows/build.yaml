@@ -24,7 +24,7 @@ jobs:
       - name: Init Playwright
         run: npx playwright install --with-deps
       - name: Test Playwright
-        run: npx playwright test --grep @{{ github.inputs.tags }}
+        run: npx playwright test --grep @${{ github.inputs.tags }}
 
       - name: Allure history
         uses: actions/checkout@v2
