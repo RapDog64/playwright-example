@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       tags:
-        default: '@regular'
-        required: true
         description: 'Run tests with specific tag(s)'
+        required: true
+        default: '@regular'
 
 jobs:
   test:
