@@ -13,7 +13,7 @@ export class HeaderMenu {
             await expect(this.page.locator(".header-links .account")).toHaveText(email);
         });
     }
-// clickSearchButton
+
     public async typeProductByName(name: string) {
         await test.step(`Type ${name} in the search box`, async () => {
             await this.page.locator("[name='q']").fill(name);
